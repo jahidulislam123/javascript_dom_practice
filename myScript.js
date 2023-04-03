@@ -23,7 +23,6 @@ newElement.className="my-class";
 
 newElement.textContent="this is a new div element";
 
-
 // append the new element to the container div
 document.getElementById("container").appendChild(newElement);
 
