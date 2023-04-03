@@ -28,3 +28,23 @@ document.getElementById("container").appendChild(newElement);
 
 }
 
+function changeText2(){
+    let heading = document.getElementById("my-heading");
+
+
+    heading.textContent="Hello world";
+    heading.style.color="blue";
+
+    //add a new class to the heading 
+    // heading.classList.add("red")
+}
+
+function dafd(){
+    let button1 = document.getElementById("my-button2");
+    button1.addEventListener("click",function(){
+    alert("Button Clicked ");
+    console.log("yes it clicked ");
+});
+
+}
+
