@@ -46,5 +46,13 @@ function dafd(){
     console.log("yes it clicked ");
 });
 
+
+function handleClick(){
+    alert("Button Clicked ");
+    console.log("ami tomader valobashi ")
+}
+let button7 = document.getElementById("extraHandle");
+button7.addEventListener('click',handleClick);
+
 }
 
